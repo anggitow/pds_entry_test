@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Facade;
 
 return [
 
+    'jwt_secret' => env('JWT_SECRET', 'qZU1DhJFtyC1hk0pK7JkS0KIuHG63k1Fh7aPa6Fqr9MHBmgWsUBgKPq18K3JQTR1'),
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -69,7 +70,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Jakarta',
 
     /*
     |--------------------------------------------------------------------------
